@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador PDF NFSe</title>
+</head>
+<body>
+    <h2>Selecionar XML NFSe Nacional Transmitida</h2>
+    <form action="/file-xml"
+          method="post"
+          enctype="multipart/form-data"
+          target="_blank">
+
+        <input type="file" name="arquivo" accept=".xml" required>
+        <br><br>
+
+        <button type="submit">Gerar PDF</button>
+    </form>
+</body>
+</html>
